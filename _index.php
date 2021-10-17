@@ -122,6 +122,7 @@ $result = mysqli_query($mysqli, $query);
                             <th scope="col">#</th>
                             <th scope="col">Nama Barang</th>
                             <th scope="col">Harga Barang</th>
+                            <th scope="col">Aksi</th>
                         </thead>
 
                         <tbody>

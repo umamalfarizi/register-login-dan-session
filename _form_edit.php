@@ -80,17 +80,17 @@ foreach ( $result as $barang) {
                     <form action="_action_edit.php" method="POST">
 
                         <div class="form-group mb-2">
-                            <label for="name">Kode Barang</label>
+                            <label for="id_barang">Kode Barang</label>
                             <input name="id" id="id_barang" value="<?=$id?>" class="form-control" type="text" placeholder="Kode Barang" readonly>
                         </div>
 
                         <div class="form-group mb-2">
-                            <label for="name">Nama Barang</label>
+                            <label for="nama_barang">Nama Barang</label>
                             <input name="name" id="nama_barang" value="<?=$name?>" class="form-control" type="text" placeholder="Nama Barang" required>
                         </div>
 
                         <div class="form-group mb-2">
-                            <label for="name">Harga Barang</label>
+                            <label for="harga_barang">Harga Barang</label>
                             <input name="price" id="harga_barang" value="<?=$price?>" class="form-control" type="number" placeholder="Harga Barang" required>
                         </div>
 

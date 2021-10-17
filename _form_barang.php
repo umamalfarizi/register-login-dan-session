@@ -67,17 +67,17 @@ if ( $sessionStatus == false ) {
                     <form action="_action.php" method="POST">
 
                         <div class="form-group mb-2">
-                            <label for="name">Kode Barang</label>
+                            <label for="id_barang">Kode Barang</label>
                             <input name="id" id="id_barang" class="form-control" type="text" placeholder="Kode Barang" required>
                         </div>
 
                         <div class="form-group mb-2">
-                            <label for="name">Nama Barang</label>
+                            <label for="nama_barang">Nama Barang</label>
                             <input name="name" id="nama_barang" class="form-control" type="text" placeholder="Nama Barang" required>
                         </div>
 
                         <div class="form-group mb-2">
-                            <label for="name">Harga Barang</label>
+                            <label for="harga_barang">Harga Barang</label>
                             <input name="price" id="harga_barang" class="form-control" type="number" placeholder="Harga Barang" required>
                         </div>
 
